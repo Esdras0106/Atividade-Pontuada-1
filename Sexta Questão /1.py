@@ -8,7 +8,7 @@ media = primeira_nota + segunda_nota / 2
 if media == 4:
       print("Aluno em recuperação!")
 elif media >=6:
-      print("Parabéns aluno aprovado!") 
+      print(f"\nParabéns aluno aprovado!") 
 elif media <4:
       print("Aluno reprovado.")     
 else:       
